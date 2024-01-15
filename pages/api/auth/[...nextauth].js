@@ -5,7 +5,6 @@ import GoogleProvider from "next-auth/providers/google";
 
 export const authOptions = {
   // Configure one or more authentication providers
-  secret: process.env.SECRET,
 
   providers: [
     GoogleProvider({
